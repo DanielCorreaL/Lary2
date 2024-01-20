@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <div class="juncao">
+    <img src="Lary.jpg" alt="Lary.jpg">
+    <h1>Amo o jeito <br> como tu <br> é engraçada, legal <br> e simpática</h1>
+  </div>
+  <h2>Eu gosto de como tu ri das minhas piadas mixurucas, como tu age e gosto quando tu pergunta "por quê?" (É fofinho)</h2>
+  
+   <a href="Motivo 6.html">
+  <div class="coracao">
+    <div class="quadrado"></div>
+    <div class="bola cima"></div>
+    <div class="bola baixo"></div>
+  </div>
+  </a>
+  
+</body>
+<style>
+  body{
+    background: black;
+  }
+  
+  img{
+    height: 400px;
+    border-radius: 30%;
+  }
+  
+  .juncao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  h1{
+    color: white;
+    font-family: Cursive;
+    font-size: 0px;
+    text-align: center;
+  }
+  
+  h2{
+    color: white;
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .coracao{
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 30% 30% 40% 40%;
+    animation: pulse 1s infinite alternate;
+    box-shadow: antiquewhite;
+  }
+  
+  .quadrado{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+  }
+  
+  .bola{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+  }
+  
+  .cima{
+    top: 100px;
+  }
+  
+  .baixo{
+    left: 100px;
+  }
+  
+  
+   @keyframes pulse{
+    0%{transform: scale(0.9) rotate(-135deg);}
+    100%{transform: scale(1.1) rotate(-135deg);}
+</style>
+</html>
